@@ -1,0 +1,82 @@
+.header {
+    background-color: #71b6bd;
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    font-size: 4rem;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+body {
+    background-color: #888888;
+
+}
+
+#bodypic {
+    width: 100%;
+}
+
+.pictures {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2vh;
+    animation-name: bodymove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes bodymove {
+    from {
+        align-items: flex-start;
+    }
+
+    25% {
+        align-items: center;
+    }
+
+    50% {
+        align-items: flex-end;
+    }
+
+    75% {
+        align-items: center;
+    }
+
+    to {
+        align-items: flex-start;
+    }
+}
+
+.image {
+    max-width: 50vh;
+}
+
+#arrow {
+    border: 0.55vh solid black;
+    margin-left: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .pictures {
+        display: flex;
+        flex-direction: column;
+        animation-name: none;
+    }
+
+    .header {
+        font-size: 3rem;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

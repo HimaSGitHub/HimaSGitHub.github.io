@@ -1,0 +1,84 @@
+.header {
+    background-color: #f2d77d;
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    font-size: 6.5vw;
+    color: black;
+    overflow: hidden;
+    -webkit-text-stroke-width: 0.2vw;
+    -webkit-text-stroke-color: #71b6bd;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+body {
+
+    background-image: url("https://img.freepik.com/premium-vector/set-character-happy-face-woman_45130-64.jpg?w=740");
+}
+
+.textbox {
+    margin-top: 8rem;
+    margin-right: 8rem;
+    margin-left: 4rem;
+    background-color: white;
+    border: 0.75vh solid black;
+    border-radius: 0.75vh;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    box-shadow: 2vh 2vh #888888;
+    min-width: 10vw;
+    padding: 3rem;
+}
+
+img {
+    margin-left: 2rem;
+    border: 0.45vh solid black;
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 100vw;
+}
+
+.icons {
+    width: 7vw;
+    margin: 3rem;
+}
+
+#arrow {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-item {
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    gap: 1rem;
+}
+
+.title {
+    justify-content: center;
+}
+
+a {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
